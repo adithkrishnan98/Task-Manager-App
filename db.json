@@ -1,1 +1,37 @@
-
+{
+  "notes": [
+    {
+      "title": "Buy Deodrant bottle",
+      "desc": "2 nos Nivea brand, 1 no brute ",
+      "status": "complete",
+      "id": 5
+    },
+    {
+      "title": "Buy Soap",
+      "desc": "Get Himalaya Neem and Turmeric soap, 5 nos",
+      "status": "pending",
+      "id": 6
+    },
+    {
+      "title": "Fix doctor's appointment",
+      "desc": "call ruchera's clinic and ask for dr.priya ",
+      "status": "pending",
+      "dateTime": "2021-09-08",
+      "id": 8
+    },
+    {
+      "title": "Call Vishy",
+      "desc": "Bug vishy out of her head by talking to her for 5 hours straight!",
+      "status": "pending",
+      "dateTime": "2021-09-17",
+      "id": 10
+    },
+    {
+      "title": "Give car for service",
+      "desc": "Call carsIndia and book for service, check oil change, wheel balancing, engine oil, remote alarm",
+      "status": "pending",
+      "dateTime": "2021-09-23",
+      "id": 11
+    }
+  ]
+}
