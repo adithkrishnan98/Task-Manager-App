@@ -1,2 +1,2 @@
 # Task-Manager-App
-A simple CRUD application  built using React JS, Sass, Framer Motion and JSON placeholder server as the data centre.
+A simple CRUD application built using React JS, Sass, Framer Motion that makes API calls to JSON server which acts as the data centre to create, update, delete and edit tasks.
