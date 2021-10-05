@@ -1,7 +1,9 @@
 {
   "name": "notes-app",
   "version": "0.1.0",
-  "private": true,
+  "engines": {
+    "node": "16.x"
+  }
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
     "@testing-library/jest-dom": "^5.14.1",
