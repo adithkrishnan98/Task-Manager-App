@@ -1,0 +1,538 @@
+$base-color : #6b161c;
+$primary-color : #FACE7F;
+$secondary-color : #FCF0C8;
+$text-colour : rgb(53, 37, 37);
+
+body 
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin : 0;
+    padding : 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:$base-color;
+    /* background-image: linear-gradient(#6b161c, #9c1e1e) ; */
+    .App{
+        width: 40em;
+        h1{
+            font-size : 3em;
+            color : $secondary-color;
+            text-align : center;
+        }
+    }  
+    .load-msg{
+        color: white;
+        margin-top: 7em;
+        margin-left: 8em;
+        font-size: 2em;
+    }
+
+    //navbar styles
+    .navbar-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3em;
+        a{
+            font-size: 1.1em;
+            background-color : $primary-color ;
+            padding : 0.4em;
+            border-radius : 5px;
+            text-decoration : none;
+            text-align: center;
+            font-weight : bold;
+            color : $text-colour;
+            width: 9em;
+        }
+    }
+
+    // all notes home page styles
+    .all-notes{
+        margin-top : 1em;
+        height: 29em;
+        overflow: hidden;
+        &:hover{
+            overflow-y: scroll;
+        }
+        &::-webkit-scrollbar{
+            display: none; /* for Chrome, Safari, and Opera */
+        }
+        .tasks-list{
+            border: 2px solid $secondary-color;
+            border-radius : 5px;
+            padding-left : 0.9em;
+            margin-top : 1em;
+            display : flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 8em;
+
+            .tasks-info{
+                h2{
+                    color: white;
+                }
+                p{
+                    color : $primary-color;
+                    margin-top: -0.8em;
+                }
+                a, .deleteBtn{
+                    background-color : $secondary-color;
+                    border-radius : 5px;
+                    border: none;
+                    margin-bottom: 1em;
+                    margin-right: 1em;
+                    color: $text-colour;
+                    font-weight: bold;
+                    font-size: 0.8em;
+                    text-decoration: none;
+                    padding : 0.4em;
+                    cursor:pointer;
+                }
+            }
+            .task-status{
+                form{
+                    input{
+                        margin-right: 1em;
+                    }
+                }
+            }
+        }
+    }
+
+    // create task page styles
+    .create-task{
+        color : white;
+        text-align : center;
+        margin-top : 5em;
+
+        .form-area{
+            display : flex;
+            flex-direction: row;
+            justify-content : center;
+            align-items: flex-start;
+            margin-top : 1em;
+            height: 25em;
+            border: 2px solid $secondary-color;
+
+            form{
+                .title-box, .desc-box, .status-box{
+                    display : flex;
+                    flex-direction : column;
+                    align-items: center;
+                    margin-top: 2em;
+                    font-size: 1.3em;
+                }
+                .title-box input, .desc-box input, .status-box select{
+                    margin-top : 1em;  
+                    background-color : $secondary-color;
+                    border: none;
+                    border-radius : 5px;
+                    height : 2em;
+                    width: 35em;
+                    font-weight: bold;
+                }
+                button{
+                    margin-top: 2.5em;
+                    background-color: $primary-color;
+                    border: none;
+                    padding: 0.6em;
+                    border-radius : 5px;
+                    font-weight: bold;
+                    color: $text-colour;
+                    cursor:pointer;
+                }
+            }
+        }
+    }
+
+    .task-details{
+        display: flex;
+        justify-content : center;
+        align-items: flex-start;
+        border: 1px solid white;
+        margin-top: 4em;
+        height: 20em;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1800px){
+    .all-notes{
+      margin-top : 2em;
+      height: 25em;
+    }
+  
+    // .footer-text{
+    //   position: relative;
+    //   top : 14em;
+    //   font-size:0.8em;
+    // }
+  }
+  
+  @media screen and (min-width: 900px) and (max-width: 1199px){
+    .all-notes{
+      margin-top : 2em;
+      height: 25em;
+    }
+    // .footer-text{
+    //   position: relative;
+    //   top : 6em;
+    //   font-size:0.9em;
+    // }
+  }
+  
+  
+  @media screen and (min-width: 700px) and (max-width: 899px){
+    .all-notes{
+      margin-top : 2em;
+      height: 25em;
+    }
+    // .footer-text{
+    //   position: relative;
+    //   top : 9.5em;
+    //   font-size:0.8em;
+    // }
+  }
+  
+  
+  @media screen and (min-width: 590px) and (max-width: 699px){
+    .all-notes{
+      height: 27em;
+      transform: scale(0.9);
+      margin-left: 0.3em;
+    }
+  
+    .navbar-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      a{
+        margin-top: 0.5em;
+        width: 87vw;
+      }
+    }
+    // .footer-text{
+    //   position: relative;
+    //   top : 0.6em;
+    //   font-size:0.8em;
+    // }
+  }
+  
+  @media screen and (min-width: 560px) and (max-width: 589px){
+    .all-notes{
+      height: 27em;
+      transform: scale(0.85);
+      margin-left: 1em;
+    }
+  
+    .navbar-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transform: scale(0.8);
+    }
+  
+    .navbar-content a{
+      margin-top: 0.5em;
+      width: 87vw;
+    }
+  }
+  
+  @media screen and (min-width: 500px) and (max-width: 559px){
+    .App h1{
+      margin-left: 1em;
+    }
+  
+    .all-notes{
+      height: 26em;
+      transform: scale(0.87);
+      margin-left: 2.5em;
+    }
+  
+    .navbar-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 2.5em;
+    }
+  
+    .navbar-content a{
+      margin-top: 0.5em;
+      width: 92vw;
+    }
+  
+    .tasks-info a, .deleteBtn{
+      font-size: 0.9em;
+    }
+  }
+  
+  @media screen and (min-width: 430px) and (max-width: 499px){
+    .App h1{
+      margin-left: 1em;
+    }
+  
+    .all-notes{
+      height: 29em;
+      transform: scale(0.84);
+      margin-left: 4.1em;
+    }
+  
+    .navbar-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 3.5em;
+    }
+  
+    .navbar-content a{
+      margin-top: 0.5em;
+      width: 92vw;
+    }
+  
+    .tasks-info a, .deleteBtn{
+      font-size: 0.95em;
+    }
+  }
+  
+  
+  @media screen and (min-width: 400px) and (max-width: 429px){
+    .App h1{
+      margin-left: 2em;
+    }
+  
+    .all-notes{
+      height: 29em;
+      transform: scale(0.87);
+      margin-left: 7em;
+    }
+  
+    .navbar-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 6em;
+    }
+  
+    .navbar-content a{
+      margin-top: 0.5em;
+      width: 92vw;
+    }
+  
+    .tasks-info a, .deleteBtn{
+      font-size: 0.98em;
+    }
+  }
+
+
+
+  
+
+  
+//   .scroll-msg{
+//     color: white;
+//     position: relative;
+//     left : 17em;
+//     top: 3em;
+//   }
+  
+  
+//   .task-details{
+//     display: flex;
+//     justify-content : center;
+//     align-items: flex-start;
+//     border: 1px solid white;
+//     margin-top: 4em;
+//     height: 20em;
+//     color: white;
+//   }
+  
+//   .footer-text{
+//     color : white;
+//     display : flex;
+//     justify-content : center;
+//     align-items: flex-end;
+//     position: relative;
+//     top : 12em;
+//     font-size:0.8em;
+//   }
+  
+//   /* MEDIA QUERIES */
+  
+//   @media screen and (min-width: 1200px) and (max-width: 1800px){
+//     .all-notes{
+//       margin-top : 2em;
+//       height: 25em;
+//     }
+  
+//     .footer-text{
+//       position: relative;
+//       top : 14em;
+//       font-size:0.8em;
+//     }
+//   }
+  
+//   @media screen and (min-width: 900px) and (max-width: 1199px){
+//     .all-notes{
+//       margin-top : 2em;
+//       height: 25em;
+//     }
+//     .footer-text{
+//       position: relative;
+//       top : 6em;
+//       font-size:0.9em;
+//     }
+//   }
+  
+  
+//   @media screen and (min-width: 700px) and (max-width: 899px){
+//     .all-notes{
+//       margin-top : 2em;
+//       height: 25em;
+//     }
+//     .footer-text{
+//       position: relative;
+//       top : 9.5em;
+//       font-size:0.8em;
+//     }
+//   }
+  
+  
+//   @media screen and (min-width: 590px) and (max-width: 699px){
+//     .all-notes{
+//       height: 27em;
+//       transform: scale(0.9);
+//       margin-left: 0.3em;
+//     }
+  
+//     .navbar-content {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//     }
+  
+//     .navbar-content a{
+//       margin-top: 0.5em;
+//       width: 87vw;
+//     }
+//     .footer-text{
+//       position: relative;
+//       top : 0.6em;
+//       font-size:0.8em;
+//     }
+//   }
+  
+//   @media screen and (min-width: 560px) and (max-width: 589px){
+//     .all-notes{
+//       height: 27em;
+//       transform: scale(0.85);
+//       margin-left: 1em;
+//     }
+  
+//     .navbar-content {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       transform: scale(0.8);
+//     }
+  
+//     .navbar-content a{
+//       margin-top: 0.5em;
+//       width: 87vw;
+//     }
+//   }
+  
+//   @media screen and (min-width: 500px) and (max-width: 559px){
+//     .App h1{
+//       margin-left: 1em;
+//     }
+  
+//     .all-notes{
+//       height: 26em;
+//       transform: scale(0.87);
+//       margin-left: 2.5em;
+//     }
+  
+//     .navbar-content {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       margin-left: 2.5em;
+//     }
+  
+//     .navbar-content a{
+//       margin-top: 0.5em;
+//       width: 92vw;
+//     }
+  
+//     .tasks-info a, .deleteBtn{
+//       font-size: 0.9em;
+//     }
+//   }
+  
+//   @media screen and (min-width: 430px) and (max-width: 499px){
+//     .App h1{
+//       margin-left: 1em;
+//     }
+  
+//     .all-notes{
+//       height: 29em;
+//       transform: scale(0.84);
+//       margin-left: 4.1em;
+//     }
+  
+//     .navbar-content {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       margin-left: 3.5em;
+//     }
+  
+//     .navbar-content a{
+//       margin-top: 0.5em;
+//       width: 92vw;
+//     }
+  
+//     .tasks-info a, .deleteBtn{
+//       font-size: 0.95em;
+//     }
+//   }
+  
+  
+//   @media screen and (min-width: 400px) and (max-width: 429px){
+//     .App h1{
+//       margin-left: 2em;
+//     }
+  
+//     .all-notes{
+//       height: 29em;
+//       transform: scale(0.87);
+//       margin-left: 7em;
+//     }
+  
+//     .navbar-content {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       margin-left: 6em;
+//     }
+  
+//     .navbar-content a{
+//       margin-top: 0.5em;
+//       width: 92vw;
+//     }
+  
+//     .tasks-info a, .deleteBtn{
+//       font-size: 0.98em;
+//     }
+//   }
