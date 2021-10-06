@@ -42,7 +42,6 @@ html {
   color : var(--btn_color);
   text-align : center;
   color: rgb(66, 59, 59);
-  text-shadow: 3px 3px 4px #969690;
 }
 
 .load-msg{
@@ -1652,7 +1651,7 @@ html {
   }
   
   .tasks-info p{
-    font-size : 0.6em;
+    font-size : 0.7em;
   }
   
   .tags-info{
@@ -1670,7 +1669,7 @@ html {
 
   .tasks-info a, .deleteBtn, .editBtn, .submitBtn{
     font-size: 0.57em;
-    margin-top: 3em;
+    margin-top: 1.5em;
   }
 
   .tasks-list{
