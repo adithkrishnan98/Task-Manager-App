@@ -46,7 +46,7 @@ const Taskdetails = () => {
             tags.push("work");
         }
 
-      axios.put("http://localhost:8001/notes/" + id, 
+      axios.put(url, 
             {title : title, 
               status : "pending", 
               desc : desc, 
