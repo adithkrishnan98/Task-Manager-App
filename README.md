@@ -1,3 +1,15 @@
+# Description :
+A simple and fully responsive CRUD application built using ReactJS, Framer Motion for animations, SASS for styling, Axios for fetching data from a fake server. Implemented features such as :
+* Viewing added tasks
+* Adding new tasks 
+* Viewing pending and completed tasks separately.
+* Searching tasks based on title and priority
+* Filtering tasks based on priority and deadline
+* Exploring individal tasks for more information
+* Editing and saving tasks 
+* Deleting tasks
+* Marking pending tasks as complete
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
