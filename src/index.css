@@ -1751,6 +1751,8 @@ html{
 
   .expand-content p{
     width: 12em;
+    font-weight : bold;
+    
   }
   
   .task-container{
@@ -1796,7 +1798,7 @@ html{
 
   .complete-btn{
     width: 95%;
-    height: 9.7em;
+    height: 9.8em;
     font-size : 0.60em;
   }
 
