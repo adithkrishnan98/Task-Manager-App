@@ -140,6 +140,7 @@ html{
   align-items : center;
   width: 100%;
   font-size : 0.9em;
+  font-weight : bold;
   color : white;
 }
 
@@ -157,6 +158,7 @@ html{
   cursor: pointer;
   margin-left: 1em;
   font-size : 0.78em;
+  font-weight : bold;
   background-color : rgb(102, 90, 90);
   border : 0.5px solid white;
   border-radius : 5px;
@@ -1788,13 +1790,13 @@ html{
   }
 
   .tasks-info a, .deleteBtn, .editBtn, .submitBtn{
-    font-size: 0.61em;
+    font-size: 0.58em;
     width: 5.3em;
   }
 
   .complete-btn{
     width: 95%;
-    height: 9.9em;
+    height: 9.7em;
     font-size : 0.60em;
   }
 
