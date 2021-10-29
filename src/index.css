@@ -427,6 +427,7 @@ html{
   height : 2em;
   width: 30em;
   color : black;
+  font-family: Verdana, sans-serif;
 }
 
 .desc-area{
@@ -437,6 +438,7 @@ html{
   height : 8em;
   width: 30em;
   color : black;
+  font-family: Verdana, sans-serif;
 }
 
 /* TASK DETAILS PAGE */
