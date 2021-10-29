@@ -39,7 +39,7 @@ const Tasklist = (props) => {
                     <div className="tasks-info">
                         <h2 style={{color : !darkMode ? "black" : "white"}}>{task.title}</h2>
                         <p style={{color : !darkMode ? "black" : "white"}}>{task.desc.slice(0,40) + "..."}</p>
-                        {task.status === "pending" ? <Link to={`/${task.id}`} style={{backgroundColor : !darkMode ? "#fff199" : "#00AE61", color : !darkMode ? "black" : "white", border : !darkMode ? "0.5px solid black" : "0.5px solid white"}} >Explore</Link> : null}
+                        {task.status === "pending" ? <Link to={`/${task.id}`} style={{backgroundColor : !darkMode ? "#fff199" : "#00AE61", color : !darkMode ? "black" : "white", border : !darkMode ? "0.5px solid black" : "0.5px solid white"}} >View</Link> : null}
                         <button className="deleteBtn" style={{backgroundColor : !darkMode ? "#fff199" : "#00AE61", color : !darkMode ? "black" : "white", border : !darkMode ? "0.5px solid black" : "0.5px solid white"}} onClick={() => {handleDelete(task.id)}}>Delete</button>
                     </div>
                     <div className="tags-info">
