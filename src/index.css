@@ -140,7 +140,6 @@ html{
   align-items : center;
   width: 100%;
   font-size : 0.9em;
-  font-weight : bold;
   color : white;
 }
 
@@ -158,7 +157,6 @@ html{
   cursor: pointer;
   margin-left: 1em;
   font-size : 0.78em;
-  font-weight : bold;
   background-color : rgb(102, 90, 90);
   border : 0.5px solid white;
   border-radius : 5px;
@@ -1751,8 +1749,6 @@ html{
 
   .expand-content p{
     width: 12em;
-    font-weight : bold;
-    
   }
   
   .task-container{
@@ -1787,18 +1783,18 @@ html{
   
   .tags-info p{
     width: 6em;
-    padding: 0.4em;
+    padding: 0.5em;
     margin-top: 0em;
   }
 
   .tasks-info a, .deleteBtn, .editBtn, .submitBtn{
-    font-size: 0.58em;
+    font-size: 0.61em;
     width: 5.3em;
   }
 
   .complete-btn{
     width: 95%;
-    height: 9.8em;
+    height: 9.9em;
     font-size : 0.60em;
   }
 
@@ -2019,7 +2015,7 @@ html{
     
     .tags-info p{
       width: 6em;
-      padding: 0.5em;
+      padding: 0.4em;
       margin-top: 0em;
     }
   
@@ -2051,7 +2047,7 @@ html{
       flex-direction: column;
       align-items: center;
       height: 60%;
-      width: 100%;
+      width: 105%;
       margin-top: -3.7em;
     }
     
@@ -2065,6 +2061,7 @@ html{
       justify-content: flex-start;
       align-items: center;
     }
+
     .create-task form{
       display: grid;
       grid-template-columns: 1fr;
