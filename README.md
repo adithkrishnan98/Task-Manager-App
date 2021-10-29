@@ -1,16 +1,20 @@
 # Task Manager App
 [Click here to check out the site](https://task-manager-ak149208.herokuapp.com)
+
 ## Description :
-A simple and fully responsive CRUD application built using ReactJS, Redux and Redux-Toolkit for state management, Framer Motion for animations, Axios for fetching data from a fake server. Implemented features such as :
-* Viewing added tasks
-* Adding new tasks 
+A simple and fully responsive CRUD application built using ReactJS, Redux and Redux-Toolkit for state management, Framer Motion for animations, Axios for fetching data from a fake server. 
+
+## Features :
+* Viewing all tasks.
+* Adding new tasks. 
 * Viewing pending and completed tasks separately.
-* Searching tasks based on title and priority
-* Filtering tasks based on priority and deadline
-* Exploring individal tasks for more information
-* Editing and saving tasks 
-* Deleting tasks
-* Marking pending tasks as complete
+* Searching tasks based on title and priority.
+* Filtering tasks based on priority and deadline.
+* Exploring individal tasks for more information.
+* Editing and saving tasks. 
+* Deleting tasks.
+* Marking pending tasks as complete and vice versa.
+* Light / dark theme toggle.
 
 ## Getting Started with Create React App
 
