@@ -64,7 +64,7 @@ function App() {
   // background-image : radial-gradient(#081D34, #081D34)
  
   return (
-      <div className="inner-container" style={{backgroundImage : !darkMode ? "radial-gradient(#ffd966, #FFCC2C)" : "radial-gradient(#14467D, #081D34)", borderColor : !darkMode ? "black" : "white"}}> 
+      <div className="inner-container" style={{backgroundImage : !darkMode ? "radial-gradient(#FFE082, #FFC40C)" : "radial-gradient(#14467D, #081D34)", borderColor : !darkMode ? "black" : "white"}}> 
         <div className="toggle-box">
             {!darkMode ? <motion.svg className="moon-icon" onClick={() => dispatch(!darkMode ? toggleDarkMode(true) : toggleDarkMode(false))} stroke="currentColor" fill="black" strokeWidth="0" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" >
                 <motion.path initial={{opacity : 0}} animate={{opacity : 1, rotate : 360}} transition={{duration : 1}}  whileHover={{rotate : 180}}  d="M195 125c0-26.3 5.3-51.3 14.9-74.1C118.7 73 51 155.1 51 253c0 114.8 93.2 208 208 208 97.9 0 180-67.7 202.1-158.9-22.8 9.6-47.9 14.9-74.1 14.9-106 0-192-86-192-192z"></motion.path>
