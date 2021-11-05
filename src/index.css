@@ -1223,8 +1223,7 @@ html{
     align-items: center;
     height: 60%;
     width: 100%;
-    margin-top: -2em;
-    position: relative;
+    margin-top: -3.7em;
   }
   
   .create-task-container h3{
@@ -1235,10 +1234,7 @@ html{
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: -30%; right: 7%;
   }
 
   .create-task form{
@@ -1408,8 +1404,7 @@ html{
     align-items: center;
     height: 60%;
     width: 100%;
-    margin-top: -2em;
-    position: relative;
+    margin-top: -3.7em;
   }
   
   .create-task-container h3{
@@ -1420,10 +1415,7 @@ html{
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: -30%; right: 7%;
   }
 
   .create-task form{
@@ -1501,7 +1493,7 @@ html{
   }  
   
   .App h1{
-    font-size : 1.8em;
+    font-size : 2em;
     margin-top : 1em;
   }
 
@@ -1600,8 +1592,7 @@ html{
     align-items: center;
     height: 60%;
     width: 100%;
-    margin-top: -2em;
-    position: relative;
+    margin-top: -3.7em;
   }
   
   .create-task-container h3{
@@ -1612,10 +1603,7 @@ html{
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: -30%; right: 7%;
   }
 
   .create-task form{
