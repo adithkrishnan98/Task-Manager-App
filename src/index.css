@@ -1732,7 +1732,7 @@ html{
   .navbar-content a{
     font-size: 0.75em;
     width: 8em;
-    margin-top : 1.5em;
+    margin-top : 1em;
   }
   
   .searchbox{
@@ -1745,6 +1745,7 @@ html{
   
   .filter-list {
     font-size : 0.55em;
+    font-weight : bold;
   }
 
   .expand-content{
@@ -1753,6 +1754,7 @@ html{
 
   .expand-content p{
     width: 12em;
+    font-weight : bold;
   }
   
   .task-container{
@@ -1798,7 +1800,7 @@ html{
 
   .complete-btn{
     width: 95%;
-    height: 9.9em;
+    height: 10em;
     font-size : 0.60em;
   }
 
