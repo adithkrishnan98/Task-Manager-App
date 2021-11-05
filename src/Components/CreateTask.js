@@ -55,7 +55,7 @@ const Createtask = (props) => {
     return ( 
         <div className="create-task-container">
             <motion.div className="create-task" initial={{x:"100vw"}} animate={{x:0}} transition={{duration:0.5,ease: 'easeOut'}} exit={{x:'-100vw'}}>
-                <motion.h3 style={{color : !darkMode ? "black" : "white"}} initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5}} exit={{opacity:0}}>Enter a new task below</motion.h3>
+                /* <motion.h3 style={{color : !darkMode ? "black" : "white"}} initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5}} exit={{opacity:0}}>Enter a new task below</motion.h3> */
                 <form onSubmit={handleSubmit}>
                     <div className="form-1" style={{borderColor : !darkMode ? "black" : "white", background : !darkMode ? "white" : "#004C74", color : !darkMode ? "black" : "white", boxShadow : !darkMode ? "6px 6px 2px #dba120" : "3px 3px 2px lightgrey"}}>
                         <div className="title-box">
