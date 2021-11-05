@@ -74,7 +74,7 @@ function App() {
               </svg>}
         </div>
         <div className="App">
-            <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{duration:2}} style={{color : darkMode ? "white" : "black"}} >Task Manager</motion.h1>
+            <motion.h1 initial={{opacity:0}} animate={{opacity:1}} transition={{duration:2}} style={{color : darkMode ? "white" : "black", textShadow : !darkMode ? "4px 4px 1px #D7A21F" : "4px 4px 1px black"}} >Task Manager</motion.h1>
             <Navbar darkmode={darkMode} />
             <AnimatePresence exitBeforeEnter>
               <Switch location={location} key={location.key}>
