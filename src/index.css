@@ -1223,7 +1223,8 @@ html{
     align-items: center;
     height: 60%;
     width: 100%;
-    margin-top: -3.7em;
+    margin-top: -2em;
+    position: relative;
   }
   
   .create-task-container h3{
@@ -1234,8 +1235,12 @@ html{
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
+    position: absolute;
+    top: -30%; right: 7%;
   }
+
   .create-task form{
     display: grid;
     grid-template-columns: 1fr;
@@ -1403,7 +1408,8 @@ html{
     align-items: center;
     height: 60%;
     width: 100%;
-    margin-top: -3.7em;
+    margin-top: -2em;
+    position: relative;
   }
   
   .create-task-container h3{
@@ -1414,7 +1420,10 @@ html{
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
+    position: absolute;
+    top: -30%; right: 7%;
   }
 
   .create-task form{
@@ -1591,7 +1600,8 @@ html{
     align-items: center;
     height: 60%;
     width: 100%;
-    margin-top: -3.7em;
+    margin-top: -2em;
+    position: relative;
   }
   
   .create-task-container h3{
@@ -1602,7 +1612,10 @@ html{
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
+    position: absolute;
+    top: -30%; right: 7%;
   }
 
   .create-task form{
@@ -1799,7 +1812,7 @@ html{
 
   .complete-btn{
     width: 95%;
-    height: 10em;
+    height: 10.1em;
     font-size : 0.60em;
   }
 
@@ -1821,7 +1834,7 @@ html{
     align-items: center;
     height: 60%;
     width: 100%;
-    margin-top: -1.5em;
+    margin-top: -2em;
     position: relative;
   }
   
@@ -2057,22 +2070,26 @@ html{
       flex-direction: column;
       align-items: center;
       height: 60%;
-      width: 110%;
-      margin-right: -0.5em ;
-      margin-top: -1.5em;
+      width: 100%;
+      margin-right: -0.5em;
+      margin-top: -2em;
+      position: relative;
     }
     
     .create-task-container h3{
-      font-size : 0.8em;
+      font-size : 1em;
     }
     
     .create-task{
       width: 100%;
       display: flex;
       justify-content: flex-start;
+      flex-direction: column;
       align-items: center;
+      position: absolute;
+      top: -30%; right: 7%;
     }
-
+  
     .create-task form{
       display: grid;
       grid-template-columns: 1fr;
