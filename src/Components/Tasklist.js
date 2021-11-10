@@ -83,7 +83,6 @@ const Tasklist = (props) => {
             <div className="tasks-holder">
                 {data ? displayTasks(props.darkmode) : null}
             </div>
-            <motion.hr className="hr" initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1, delay:1}} exit={{opacity:0}}></motion.hr>
             <motion.div className="pagination-container"initial={{x:"-100vw"}} animate={{x:0}} transition={{duration:1.5, delay:1}}>
                 <ReactPaginate  previousLabel="Previous" nextLabel="Next" pageCount={pageCount} onPageChange={changePage} containerClassName={"paginationBtns"} previousLinkClassName={"previousBtn"} nextLinkClassName={"nextBtn"} disabledClassName={"paginationDisabled"} activeClassName={"paginationActive"}/>
             </motion.div>
