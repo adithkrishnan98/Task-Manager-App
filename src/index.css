@@ -1229,7 +1229,7 @@ body{
     align-items: center;
     height: 60%;
     width: 100%;
-    margin-top: -2.7em;
+    margin-top: -4.7em;
   }
   
   .create-task-container h3{
@@ -1411,7 +1411,7 @@ body{
     align-items: center;
     height: 60%;
     width: 100%;
-    margin-top: -2.7em;
+    margin-top: -4.7em;
   }
   
   .create-task-container h3{
@@ -1599,7 +1599,7 @@ body{
     align-items: center;
     height: 60%;
     width: 100%;
-    margin-top: -2.7em;
+    margin-top: -4.7em;
   }
   
   .create-task-container h3{
@@ -1831,7 +1831,7 @@ body{
       align-items: center;
       height: 60%;
       width: 100%;
-      margin-top: -1.7em;
+      margin-top: -4.7em;
     }
     
     .create-task-container h3{
@@ -2037,7 +2037,7 @@ body{
   
     .tasks-info a, .deleteBtn, .editBtn, .submitBtn, .backBtn{
       font-size: 0.61em;
-      width: 5.3em;
+      width: 4.9em;
       font-weight: bold;
     }
   
@@ -2066,7 +2066,7 @@ body{
       height: 60%;
       width: 100%;
       margin-right: -0.5em;
-      margin-top: -2em;
+      margin-top: -4.5em;
       position: relative;
     }
     
