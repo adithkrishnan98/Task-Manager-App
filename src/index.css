@@ -1200,8 +1200,9 @@ body{
     margin-top: 0em;
   }
 
-  .tasks-info a, .deleteBtn, .editBtn, .submitBtn{
+  .tasks-info a, .deleteBtn, .editBtn, .submitBtn, .backBtn{
     font-size: 0.65em;
+    font-weight: bold;
   }
   
   .complete-btn{
@@ -1313,7 +1314,7 @@ body{
   }  
   
   .App h1{
-    font-size : 2em;
+    font-size : 2.2em;
   }
 
   .all-notes{
@@ -1381,7 +1382,7 @@ body{
     margin-top: 0em;
   }
 
-  .tasks-info a, .deleteBtn, .editBtn, .submitBtn{
+  .tasks-info a, .deleteBtn, .editBtn, .submitBtn, .backBtn{
     font-size: 0.64em;
     font-weight: bold;
   }
@@ -1498,7 +1499,7 @@ body{
   }  
   
   .App h1{
-    font-size : 1.8em;
+    font-size : 2.2em;
     margin-top : 1em;
   }
 
@@ -1569,7 +1570,7 @@ body{
     margin-top: 0em;
   }
 
-  .tasks-info a, .deleteBtn, .editBtn, .submitBtn{
+  .tasks-info a, .deleteBtn, .editBtn, .submitBtn, .backBtn{
     font-size: 0.6em;
     font-weight: bold;
   }
@@ -1728,7 +1729,7 @@ body{
     }
     
     .App h1{
-      font-size : 2em;
+      font-size : 2.7em;
       margin-top : 1em;
     }
   
@@ -1800,9 +1801,9 @@ body{
       margin-top: 0em;
     }
   
-    .tasks-info a, .deleteBtn, .editBtn, .submitBtn{
+    .tasks-info a, .deleteBtn, .editBtn, .submitBtn, .backBtn{
       font-size: 0.61em;
-      width: 5.5em;
+      width: 4.9em;
       font-weight: bold;
     }
   
@@ -1964,7 +1965,7 @@ body{
     }
     
     .App h1{
-      font-size : 1.8em;
+      font-size : 2.7em;
       margin-top : 1em;
     }
   
@@ -2034,7 +2035,7 @@ body{
       margin-top: 0em;
     }
   
-    .tasks-info a, .deleteBtn, .editBtn, .submitBtn{
+    .tasks-info a, .deleteBtn, .editBtn, .submitBtn, .backBtn{
       font-size: 0.61em;
       width: 5.3em;
       font-weight: bold;
