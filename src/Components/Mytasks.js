@@ -56,8 +56,7 @@ const Mytasks = ({tasks, isPending, error, darkmode, url}) => {
             </div>
             <motion.div className="all-notes" exit={{x:'-100vw',transition:{ ease: 'easeInOut', duration:0.7}}}>
             {isPending ? (<p className="spin-loader"></p>) : null}
-            {error ? (<div className="error-msg">{error}</div>) : null}
-            <Tasklist darkmode={darkMode} url={url} tasks={getSortedData(sortByPriority, sortByDeadline)}/>
+            {error ? (<div className="error-msg">{error}</div>) : <Tasklist darkmode={darkMode} url={url} tasks={getSortedData(sortByPriority, sortByDeadline)}/>}
             </motion.div>
         </div>
     );
