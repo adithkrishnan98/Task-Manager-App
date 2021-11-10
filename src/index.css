@@ -1354,7 +1354,7 @@ body{
     display: grid;
     grid-template-columns: 80% 20%;
     grid-template-rows : auto;
-    height: 6.5em;
+    height: 6.6em;
   }
 
   .tasks-info{
@@ -1542,7 +1542,7 @@ body{
     display: grid;
     grid-template-columns: 80% 20%;
     grid-template-rows : auto;
-    height: 5.8em;
+    height: 5.9em;
   }
 
   .tasks-info{
@@ -1773,7 +1773,7 @@ body{
       display: grid;
       grid-template-columns: 75% 25%;
       grid-template-rows : auto;
-      height: 5.8em;
+      height: 5.9em;
     }
   
     .tasks-info{
@@ -2007,7 +2007,7 @@ body{
       display: grid;
       grid-template-columns: 75% 25%;
       grid-template-rows : auto;
-      height: 5.8em;
+      height: 5.9em;
     }
   
     .tasks-info{
